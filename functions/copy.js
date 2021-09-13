@@ -1,6 +1,7 @@
-const copyAndPush = (numbers) => { 
-  numbers.push(4);
-  return numbers;
+const copyAndPush = (arr, number) => { 
+
+  arr.push(number);
+  return arr;
 };
 
 export default copyAndPush;
