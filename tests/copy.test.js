@@ -9,7 +9,7 @@ describe('copyAndPush', () => {
     const numbers = [1, 2, 3];
     const randomNum = Math.floor(Math.random() * 10);
     expect(copyAndPush(numbers, randomNum)).toEqual([1, 2, 3, randomNum]); // return [1, 2, 3, 4];
-    // expect(numbers).toEqual([1, 2, 3]);
+    expect(numbers).toEqual([1, 2, 3]);
   });
     
   
