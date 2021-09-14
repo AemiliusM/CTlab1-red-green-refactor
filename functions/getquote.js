@@ -8,6 +8,7 @@ export const getQuote = async () => {
   const url = 'https://futuramaapi.herokuapp.com/api/characters/Bender';
   const res = await fetch(url);
   const body = await res.json();
+  console.log(body[0]);
   
-  return body;
+  return body[0];
 };
